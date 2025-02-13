@@ -6,45 +6,28 @@ body {
             background-color: #f9f9f9;
         }
         marquee {
-            background-color: #4CAF50;
             color: white;
             padding: 10px;
-            font-size: 24px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
         }
         h1 {
             color: #333;
         }
-        .article {
-            margin-bottom: 40px;
-        }
-        .article img {
-            display: block;
-            margin: 0 auto;
-            height: 200px;
-            border-radius: 8px;
-        }
-        .article h2 {
+
+        h2 {
             color: #333;
         }
-        .article p {
+        p {
+			color:blue;
             text-align: justify;
             line-height: 1.6;
-            color: #555;
+			text-decoration: underline
         }
-        .article a {
+        a {
+			color:blue;
             display: block;
             margin-top: 10px;
-            color: #4CAF50;
             text-decoration: none;
             font-weight: bold;
-        }
-        .article a:hover {
-            text-decoration: underline;
+			text-decoration: underline
         }
